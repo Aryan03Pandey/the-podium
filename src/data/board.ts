@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Columns } from "../types";
-import avatar from '../assets/images/avatar.jpeg'
+// import avatar from '../assets/images/avatar.jpeg'
 
 const participants: any = [];
 
@@ -8,7 +8,7 @@ for (let i = 0; i < 24; i++) {
 	participants.push({
 		id: uuidv4(),
 		name: `Aryan${i+1}`,
-		image: avatar,
+		image: '',
 		alt: "task image",
 		participated: '10',
 		wins: '3',

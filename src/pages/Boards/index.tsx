@@ -30,7 +30,7 @@ const Home = () => {
 										{...provided.droppableProps}
 										className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
 									>
-										<div className="flex items-center justify-center py-[10px] w-full bg-orange-300 rounded-lg shadow-sm text-black font-bold text-[15px]">
+										<div className="flex items-center justify-center w-full shadow-sm text-white border-b-[1px] border-secondary font-bold text-[18px]">
 											Participants
 										</div>
 										{column.items.map((participant: any, index: any) => (
@@ -61,7 +61,7 @@ const Home = () => {
 				
 				<div className="flex flex-col gap-2 w-full pt-5">
 
-					<div className="flex items-center justify-center py-[10px] w-full bg-orange-300 rounded-lg shadow-sm text-black font-bold text-[15px]">
+					<div className="flex items-center justify-center w-full shadow-sm text-white border-b-[1px] border-secondary font-bold text-[18px]">
 						Room A
 					</div>					
 
@@ -82,7 +82,7 @@ const Home = () => {
 											{...provided.droppableProps}
 											className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
 										>
-											<div className="flex items-center justify-center py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px]">
+											<div className="flex items-center justify-center w-full shadow-sm text-secondary-text font-bold border-b-[2px] border-secondary text-[15px]">
 												{column.name}
 											</div>
 											{column.items.map((participant: any, index: any) => (
@@ -111,7 +111,7 @@ const Home = () => {
 						))} 
 					</div>
 
-					<div className="flex items-center justify-center py-[10px] w-full bg-orange-300 rounded-lg shadow-sm text-black font-bold text-[15px]">
+					<div className="flex items-center justify-center w-full shadow-sm text-white border-b-[1px] border-secondary font-bold text-[18px]">
 						Room B
 					</div>	
 
@@ -132,7 +132,7 @@ const Home = () => {
 											{...provided.droppableProps}
 											className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
 										>
-											<div className="flex items-center justify-center py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px]">
+											<div className="flex items-center justify-center w-full shadow-sm text-secondary-text font-bold border-b-[2px] border-secondary text-[15px]">
 												{column.name}
 											</div>
 											{column.items.map((participant: any, index: any) => (
@@ -161,7 +161,7 @@ const Home = () => {
 						))} 
 					</div>
 
-					<div className="flex items-center justify-center py-[10px] w-full bg-orange-300 rounded-lg shadow-sm text-black font-bold text-[15px]">
+					<div className="flex items-center justify-center w-full shadow-sm text-white border-b-[1px] border-secondary font-bold text-[18px]">
 						Room C
 					</div>	
 
@@ -182,7 +182,7 @@ const Home = () => {
 											{...provided.droppableProps}
 											className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
 										>
-											<div className="flex items-center justify-center py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px]">
+											<div className="flex items-center justify-center w-full shadow-sm text-secondary-text font-bold border-b-[2px] border-secondary text-[15px]">
 												{column.name}
 											</div>
 											{column.items.map((participant: any, index: any) => (
@@ -211,7 +211,7 @@ const Home = () => {
 						))} 
 					</div>
 
-					<div className="flex items-center justify-center py-[10px] w-full bg-orange-300 rounded-lg shadow-sm text-black font-bold text-[15px]">
+					<div className="flex items-center justify-center w-full shadow-sm text-white border-b-[1px] border-secondary font-bold text-[18px]">
 						Room D
 					</div>	
 
@@ -232,7 +232,7 @@ const Home = () => {
 											{...provided.droppableProps}
 											className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
 										>
-											<div className="flex items-center justify-center py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px]">
+											<div className="flex items-center justify-center w-full shadow-sm text-secondary-text font-bold border-b-[2px] border-secondary text-[15px]">
 												{column.name}
 											</div>
 											{column.items.map((participant: any, index: any) => (
